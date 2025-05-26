@@ -1,11 +1,21 @@
 import { Component } from '@angular/core';
-
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-devops-profile';
+  tools: string[] = [
+    'Jenkins',
+    'Docker',
+    'Kubernetes',
+    'Terraform',
+    'Git',
+    'AWS',
+    'Azure DevOps',
+    'Ansible',
+    'Maven',
+  ];
 }
