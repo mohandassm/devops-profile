@@ -17,5 +17,7 @@ export class AppComponent {
     'Azure DevOps',
     'Ansible',
     'Maven',
+    'Gradle',
+    'GitLab CI',
   ];
 }
